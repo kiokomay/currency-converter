@@ -12,9 +12,7 @@ export interface Country {
     numericCode: string;
     currencies?: (CurrencyEntity)[] | null;
     languages?: (LanguagesEntity)[] | null;
-    translations: Translations;
     flag: string;
-    regionalBlocs?: (RegionalBlocsEntity)[] | null;
     borders?: (string)[] | null;
     nativeName: string;
     demonym: string;
