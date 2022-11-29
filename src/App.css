@@ -1,38 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  margin: 0;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  min-height: 100vh;
   color: white;
+  background-color: #9c9cfb;
+  font-family: 'Abel', sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+.rate {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.appContainer {
+  background-color: #CCCCFF;
+  padding: 20px 30px 40px 30px;
+  border-radius: 15px;
+  box-shadow: rgba(255, 255, 255, 0.978) 0px 22px 70px 15px;
+}
+
+.input {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3vh;
+  width: 70%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.resultInput {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3vh;
+  width: 70%;
+  cursor: not-allowed;
+  outline: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgb(219, 219, 219);
+}
+
+input {
+  width: 20vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 5vh;
+  border-radius: 15px;
+  box-shadow: none;
+  border: none;
+}
+
+input:focus {
+  outline:none;
+}
+
+.convertArrow {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3vh;
+  width: 10%;
+}
+
+button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5vh;
+  width: 30%;
+  border: none;
+  background-color: rgb(44, 33, 241);
+}
+
+.buttonTitle {
+  color: white;
+  margin-top: 1vh;
+}
+
+button svg {
+  margin-bottom: 2vh;
+}
+
+svg {
+  margin-top: 1vh;
+  margin-bottom: 1vh;
 }
